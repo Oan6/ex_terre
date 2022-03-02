@@ -2,11 +2,9 @@
 #à partir de la lettre donnée en argument en lettres minuscules 
 #suivi d’un retour à la ligne.
 
-a = gets.chomp.to_s
+a = ARGV[0]
 
 for letter in "#{a}".."z"
 	print letter
-	if letter == "z" 
-	print" \r\n"
+
 end
-end 

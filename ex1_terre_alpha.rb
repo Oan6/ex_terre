@@ -6,5 +6,6 @@ for letter in "a".."z"
 	print letter
 	if letter == "z" 
 	print" \n"
+	puts 
 end 
 end
