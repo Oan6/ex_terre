@@ -8,6 +8,5 @@ for i in 0..a-2
 		puts "pas triée !"
 		exit 
 	end 
-	
 	puts "triée !" if b == a-1
 end 
